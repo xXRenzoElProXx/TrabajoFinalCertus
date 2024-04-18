@@ -31,7 +31,7 @@ const LoadingComponent = () => (
     </div>
 );
 
-const HomePage = () => {
+export const HomePage = () => {
     const [originalCharacters, setOriginalCharacters] = useState([]);
     const [characters, setCharacters] = useState([]);
     const [search, setSearch] = useState("");
@@ -179,5 +179,3 @@ const HomePage = () => {
         </div>
     );
 };
-
-export default HomePage;
